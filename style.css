@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  border: 2px dashed blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis:100vw;
+   
+}
+li {
+  border: 2px blue solid;
+  list-style: none;
+  padding: 0 10px;
+  width: 90px;
+  
+  
+  
+}
+.test{
+    flex-grow: 1;
+
+}
+
+a {
+  font-size: 16px;
+}
+
+.hero-img {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  
+}
+p{
+  height: 25vh;
+  width: 50vw;
+  color: #fff;
+  text-align: center;
+}
